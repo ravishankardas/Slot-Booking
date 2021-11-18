@@ -1,6 +1,6 @@
 # slot_book
 
-This flutter application is a part of multi-module project which helps in booking a slot. Before running the app one should setup an app in the firebase console and paste the google-services.json in android/app
+This flutter application is a part of multi-module project which helps in booking a slot. Before running the app one should setup an app in the firebase console and paste the google-services.json in android/app folder
 
 ## Getting Started
 
