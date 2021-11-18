@@ -1,6 +1,6 @@
 # slot_book
 
-This flutter application is a part of multi-module project which helps in booking a slot. 
+This flutter application is a part of multi-module project which helps in booking a slot. Before running the app one should delete the google-services.json and replace them with theirs in 
 
 ## Getting Started
 
