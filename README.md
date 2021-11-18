@@ -1,6 +1,6 @@
 # slot_book
 
-Book your slot for the shoping
+This APP helps you in booking a slot for a shop. This flutter application is a part of multi-module project 
 
 ## Getting Started
 
