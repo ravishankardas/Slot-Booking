@@ -1,5 +1,5 @@
 # slot_book
-
+(I have tested the app only on android, so on IOS it may not work)
 Follow the below steps to run the app:
 1) In the android studio emulator i have used api 30 so if another api does not work download the api 30 
 2) Download flutter from https://docs.flutter.dev/get-started/install (put it in the c drive if you are on windows)
