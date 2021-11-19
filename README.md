@@ -1,6 +1,10 @@
 # slot_book
 
-This flutter application is a part of multi-module project which helps in booking a slot. Before running the app one should setup an app in the firebase console and paste the google-services.json in android/app folder
+Follow the below steps to run the app:
+1) In the android studio emulator i have used api 30 so if another api does not work download the api 30 
+2) Download flutter from https://docs.flutter.dev/get-started/install (put it in the c drive if you are on windows)
+3) After creating a flutter project in your favourite IDE setup firebase using this video https://youtu.be/CpyALC8Zpxo?t=183, in windows if you are having problems for the SHA fingerprints then look at https://stackoverflow.com/questions/6211919/errorkeytool-is-not-recognized-as-an-internal-or-external-command-operable-p
+4) Launch the Emulator and run the flutter app on it, for the first time it may take a while to install 
 
 ## Getting Started
 
