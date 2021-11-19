@@ -1,10 +1,10 @@
 # slot_book
-(I have tested the app only on android, so on IOS it may not work)
+
 Follow the below steps to run the app:
 1) In the android studio emulator i have used api 30 so if another api does not work download the api 30 
 2) Download flutter from https://docs.flutter.dev/get-started/install (put it in the c drive if you are on windows)
 3) After creating a flutter project in your favourite IDE setup firebase using this video https://youtu.be/CpyALC8Zpxo?t=183 (replace the things in this app as done in the video), in windows if you are having problems for the SHA fingerprints then look at https://stackoverflow.com/questions/6211919/errorkeytool-is-not-recognized-as-an-internal-or-external-command-operable-p
-4) Launch the Emulator and run the flutter app on it, for the first time it may take a while to install 
+4) Launch the Emulator and run the flutter app on it, for the first time it may take a while to install (I have tested the app only on android, so on IOS it may not work)
 
 ## Getting Started
 
