@@ -23,7 +23,7 @@ class _showCustomersState extends State<showCustomers> {
   int value;
   final DBref = FirebaseDatabase.instance.reference();
   final DateTime theDate = DateTime.now();
-  List contact = [];
+  List contact = ['Welcome'];
 
   _showCustomersState(this.timeId, this.value);
 
@@ -119,7 +119,7 @@ class _showCustomersState extends State<showCustomers> {
     await DBref.once().then((DataSnapshot dataSnapshot) {
       setState(() {
         for (String key in dataSnapshot.value.keys) {
-          if (key == 'number' || key == 'owner') {
+          if (key == 'number') {
             continue;
           }
           Map<Object, Object> newMap =
@@ -160,7 +160,7 @@ class _showCustomersState extends State<showCustomers> {
     await DBref.once().then((DataSnapshot dataSnapshot) {
       setState(() {
         for (String key in dataSnapshot.value.keys) {
-          if (key == 'number' || key == 'owner') {
+          if (key == 'number') {
             continue;
           }
           Map<Object, Object> newMap =
