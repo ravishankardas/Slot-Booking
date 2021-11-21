@@ -1,5 +1,5 @@
 # slot_book
-Dependencies:  Flutter, JDK, Android studio
+Dependencies:  Flutter, Java, JDK, Android studio
 
 Follow the below steps to run the app:
 1) In the android studio emulator i have used api 30 so if another api does not work download the api 30 
