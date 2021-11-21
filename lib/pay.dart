@@ -150,8 +150,10 @@ class _BooknPayState extends State<BooknPay> {
       });
     } else {
       setState(() {
+        oneClick = false;
         shouldEnable = false;
       });
+      return;
     }
     GoogleAuthApi.signOut();
     final user = await GoogleAuthApi.signIn();
@@ -167,7 +169,7 @@ class _BooknPayState extends State<BooknPay> {
       ..recipients = [emailId]
       ..subject = 'Booking Confirmation'
       ..text =
-          'Dear user, \n You have booked the ${timeId} slot on ${dateId} for ${shopId} which is located at ${locId} and your token number is ${prevValue}, Happy Shopping!!!';
+          'Dear user, \nYou have booked the ${timeId} slot on ${dateId} for ${shopId} which is located at ${locId} and your token number is ${prevValue}, Happy Shopping!!!';
     try {
       await send(message, smtpServer);
       Fluttertoast.showToast(
